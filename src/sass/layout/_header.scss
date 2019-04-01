@@ -1,0 +1,43 @@
+.page-header {
+  padding-left: 4vmin;
+
+  .page-logo {
+    margin: 0;
+    border: 2px solid black;
+    padding: 1.5vmin 4vmin;
+    position: absolute;
+    transform: translate(0,-50%);
+    font-family: 'Arima Madurai', cursive;
+    letter-spacing: 1.5px;
+
+    &__link {
+      text-decoration: none;
+      color: $color-logo;
+    }
+  }
+
+  .page-nav {
+    padding: 10vmin 15vmin 5vmin 15vmin;
+
+    .nav-list {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      background-color: #EEF8F6;
+
+      &__link {
+        text-decoration: none;
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        color: $color-header-font;
+
+        &:hover {
+          color: $color-logo;
+          border-bottom: 1px solid $color-logo;
+        }
+      }
+    }
+  }
+}

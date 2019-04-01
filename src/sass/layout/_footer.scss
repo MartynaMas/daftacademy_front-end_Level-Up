@@ -1,0 +1,36 @@
+.page-footer {
+  background-color: #fff;
+  padding: 4vmin;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+  .contact {
+    display: flex;
+
+    &__item {
+      color: $color-footer-font;
+    }
+
+    &__email {
+      text-decoration: none;
+      color: $color-logo;
+    }
+  }
+
+  .social-media {
+    display: flex;
+
+    &__item {
+      color: $color-footer-font;
+      padding: 1vmin;
+    }
+
+    &__icon {
+      text-decoration: none;
+      color: $color-icon;
+      padding: 1vmin;
+    }
+  }
+}
